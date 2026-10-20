@@ -1,4 +1,3 @@
-```php
 <?php
 session_start();
 include 'config/db.php';
@@ -111,14 +110,11 @@ $conn->close();
             <button type="submit" class="btn btn-primary">Register</button>
 
         </form>
-
         <div class="link-text">
             Already have an account?
             <a href="login.php">Login here</a>
         </div>
-
     </div>
 </div>
-
 </body>
 </html>
